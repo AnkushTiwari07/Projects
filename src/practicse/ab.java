@@ -5,17 +5,19 @@ public class ab {
 	public static void main(String[] args) {
 		
 		int var = 1221;
+		int original = var;
 		int tempvar = 0;
 		
-		for(int i = 4 ; i >=0; i--) {
+		while(var!=0) {
 			
+			tempvar = tempvar*10+var%10;
 			
-			tempvar = tempvar*10+var;
+			var=var/10;
 			
 			
 		}
-		System.out.println("It's a Actual  String : "tempvar);
-		System.out.println("It's a reverse String : "tempvar);
+		System.out.println("It's a Actual  String : "+original);
+		System.out.println("It's a reverse String : "+var);
 		
 	}
 	
