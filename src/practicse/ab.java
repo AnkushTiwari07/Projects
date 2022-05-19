@@ -14,8 +14,8 @@ public class ab {
 			
 			
 		}
-		
-		System.out.println(tempvar);
+		System.out.println("It's a Actual  String : "tempvar);
+		System.out.println("It's a reverse String : "tempvar);
 		
 	}
 	
